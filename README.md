@@ -7,17 +7,17 @@ This project is part of our **thesis** on improving online security by integrati
 
 
 ### 🚀 Features
-✅ Permission-based URL safety checks.
-✅ Responsive UI for security prompts.
-✅ Hover and click detection for enhanced interaction control.
-✅ Clean, user-friendly interface with modal-based user prompts.
-✅ Color-coded alerts for better visibility:
+- ✅ Permission-based URL safety checks.
+- ✅ Responsive UI for security prompts.
+- ✅ Hover and click detection for enhanced interaction control.
+- ✅ Clean, user-friendly interface with modal-based user prompts.
+- ✅ Color-coded alerts for better visibility:
   - 🟥 Suspicious Link
   - 🟩 Safe Link
-  ✅ Secondary verification using OpenAI API for deep link analysis.
-  ✅ Error handling with specific messages for different scenarios.
-  ✅ Lightweight & efficient, ensuring minimal performance impact.
-  ✅ Tailwind CSS for a sleek and modern design.
+  - ✅ Secondary verification using OpenAI API for deep link analysis.
+  - ✅ Error handling with specific messages for different scenarios.
+  - ✅ Lightweight & efficient, ensuring minimal performance impact.
+  - ✅ Tailwind CSS for a sleek and modern design.
 
 
 ### ⚙️ Prerequisites
@@ -58,6 +58,10 @@ Before using the **PhishAlert** extension, make sure you have the following inst
 ### 🔗 APIs
 - 🛡 **Google Safe Browsing API**: Detects unsafe links to protect users from phishing and malware threats.
 - 🤖 **OpenAI API**: Performs secondary verification by analyzing the URL when Google Safe Browsing does not flag it as unsafe. It evaluates various risk factors such as domain structure, URL patterns, content indicators, and potential phishing characteristics to enhance safety validation.
+
+### 📂 Repositories
+- **Frontend Repository:** [GitHub - PhishAlert Frontend Repository](https://github.com/JonArbell/phish-alert-frontend)  
+- **Backend Repository:** [GitHub - PhishAlert Backend Repository](https://github.com/JonArbell/phish-alert-backend)
 
 
 ### ⚠️ Additional Notes
