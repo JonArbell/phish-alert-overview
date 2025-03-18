@@ -30,11 +30,11 @@ Before using the **PhishAlert** extension, make sure you have the following inst
 
 
 ### 📥 Installation
-** 1️⃣ Clone the Repository**
+1️⃣ **Clone the Repository**
 1. ``` git clone https://github.com/JonArbell/phish-alert.git ```
 2. ``` cd phishing-detector ```
 
-** 2️⃣ Install the Extension**
+2️⃣ **Install the Extension**
 1. Load the Extension in Chrome
 2. Open Chrome and navigate to chrome://extensions/.
 3. Enable Developer Mode (toggle in the top right corner).
