@@ -28,19 +28,6 @@ Before using the **PhishAlert** extension, make sure you have the following inst
 - A **Gmail account** to test the extension functionality
 - **Tailwind CSS CLI** (for styling the extension's UI)
 
-
-### 📥 Installation
-1️⃣ **Clone the Repository**
-1. ``` git clone https://github.com/JonArbell/phish-alert.git ```
-2. ``` cd phishing-detector ```
-
-2️⃣ **Install the Extension**
-1. Load the Extension in Chrome
-2. Open Chrome and navigate to chrome://extensions/.
-3. Enable Developer Mode (toggle in the top right corner).
-4. Click Load Unpacked and select the project directory.
-5. The extension will be loaded and ready for use in Gmail.
-
 ### 🎯 Usage
 1. Open Gmail in your browser.
 2. Hover over any email link to trigger the security check.
