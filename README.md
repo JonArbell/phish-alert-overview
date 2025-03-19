@@ -50,11 +50,11 @@ This project is part of our **thesis** on improving online security by integrati
 ### 🛠 Technologies Used
 
 #### 💻 Frontend (JavaScript + Tailwind CSS)
-- Core functionality for user interactions and dynamic content.
-- Responsive and visually appealing UI design.
+  - Core functionality for user interactions and dynamic content.
+  - Responsive and visually appealing UI design.
 
 #### 🔧 Backend (Spring Boot - Java)
-- Manages secure communication with external APIs.
+  - Manages secure communication with external APIs.
 
 #### 🌐 APIs & Integrations
   - 🔍 Google Safe Browsing API – Ensures security by detecting unsafe URLs.
