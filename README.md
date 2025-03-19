@@ -56,6 +56,10 @@ This project is part of our **thesis** on improving online security by integrati
 #### 🔧 Backend (Spring Boot - Java)
   - Manages secure communication with external APIs.
 
+#### ⚡ Caching (Caffeine Cache)
+  - Enhances performance by storing frequently accessed data in memory.
+  - Reduces backend load and improves response times.
+
 #### 🌐 APIs & Integrations
   - 🛡 Google Safe Browsing API – Detects unsafe links to protect users from phishing and malware threats.
   - 🤖 OpenAI API – Performs secondary verification by analyzing the URL when Google Safe Browsing does not flag it as unsafe. It evaluates various risk factors such as domain structure, URL patterns, content indicators, and potential phishing characteristics to enhance safety validation.
