@@ -24,14 +24,6 @@ This project is part of our **thesis** on improving online security by integrati
 ---
 
 
-### ⚙️ Prerequisites
-Before using the **PhishAlert** extension, make sure you have the following installed:
-
-- **Google Chrome** (latest version recommended)
-- **Git** for cloning the repository
-- A **Gmail account** to test the extension functionality
-- **Tailwind CSS CLI** (for styling the extension's UI)
-
 ### 🎯 Usage
 1. Open Gmail in your browser.
 2. Hover over any email link to trigger the security check.
@@ -103,3 +95,7 @@ Before using the **PhishAlert** extension, make sure you have the following inst
 ---
 
 ### ✍️ Technical Writers: All team members contributed to documentation.
+
+---
+
+**🚀 Stay protected from phishing with PhishAlert! 🔐💡**
