@@ -6,6 +6,8 @@
 This project is part of our **thesis** on improving online security by integrating phishing detection into email services.
 
 
+---
+
 ### 🚀 Features
 - ✅ Permission-based URL safety checks.
 - ✅ Responsive UI for security prompts.
@@ -18,6 +20,8 @@ This project is part of our **thesis** on improving online security by integrati
   - ✅ Error handling with specific messages for different scenarios.
   - ✅ Lightweight & efficient, ensuring minimal performance impact.
   - ✅ Tailwind CSS for a sleek and modern design.
+
+---
 
 
 ### ⚙️ Prerequisites
@@ -36,25 +40,51 @@ Before using the **PhishAlert** extension, make sure you have the following inst
    - 🟥 Red → Suspicious Link
    - 🟩 Green → Safe Link
 
+
+---
+
+### 🔁 System Flow
+1. **🖥️ Frontend**: The user submits a URL to the backend through a REST API call.
+2. **🛠️ Backend**:
+    - ✅ Validates the incoming URL.
+    - 🔍 Sends the URL to Google Safe Browsing and OpenAI APIs for analysis.
+    - 📊 Processes and combines the results into a final verdict.
+3. **📡 Broadcast**:
+    - 📩 Sends the safety verdict to the frontend for user notifications.
+    - 📡 Uses WebClient to transmit the results to the Arduino device for hardware alerts.
+
+---
+
 ### 🛠 Technologies Used
 - 💻 **JavaScript**: Core functionality for user interactions and dynamic content handling.
 - 🎨 **Tailwind CSS**: Ensures responsive and visually appealing design for the extension's UI.
 - 🌐 **Chrome Extensions API**: Integrates seamlessly with the browser to manage user interactions and permissions.
 - 🔧 **Backend (Java Spring Boot)**: Manages communication between the extension and external APIs securely and efficiently.
-  
+
+
+---
+
 ### 🔗 APIs
 - 🛡 **Google Safe Browsing API**: Detects unsafe links to protect users from phishing and malware threats.
 - 🤖 **OpenAI API**: Performs secondary verification by analyzing the URL when Google Safe Browsing does not flag it as unsafe. It evaluates various risk factors such as domain structure, URL patterns, content indicators, and potential phishing characteristics to enhance safety validation.
+
+---
 
 ### 📂 Repositories
 - **Frontend Repository:** [GitHub - PhishAlert Frontend Repository](https://github.com/JonArbell/phish-alert-frontend)  
 - **Backend Repository:** [GitHub - PhishAlert Backend Repository](https://github.com/JonArbell/phish-alert-backend)
 
 
+---
+
+
 ### ⚠️ Additional Notes
 - ⚡ **Compatibility**: The extension is optimized for **Google Chrome**, and other browsers may not fully support the functionality due to API differences.
 - 🚀 **Performance Impact**: The extension is designed to be lightweight with minimal performance impact. However, excessive use of the security checks could slightly impact page load times.
 - 🔐 **Security Considerations**: Always ensure your extension is running on the latest version to prevent security vulnerabilities, especially in handling user interactions and API calls.
+
+
+---
 
 
 ## 👨‍💻 Team Members
@@ -68,5 +98,8 @@ Before using the **PhishAlert** extension, make sure you have the following inst
 - **Pingol, Rose** - Research Analyst
 - **Playda, Crislie Key** - Research Analyst
 - **Rodriguez, Reymar** - Vice Project Manager, Support Frontend Developer, Hardware Specialist (Circuit Design)
+
+
+---
 
 ### ✍️ Technical Writers: All team members contributed to documentation.
