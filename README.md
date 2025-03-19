@@ -48,10 +48,18 @@ This project is part of our **thesis** on improving online security by integrati
 ---
 
 ### 🛠 Technologies Used
-- 💻 **JavaScript**: Core functionality for user interactions and dynamic content handling.
-- 🎨 **Tailwind CSS**: Ensures responsive and visually appealing design for the extension's UI.
-- 🌐 **Chrome Extensions API**: Integrates seamlessly with the browser to manage user interactions and permissions.
-- 🔧 **Backend (Java Spring Boot)**: Manages communication between the extension and external APIs securely and efficiently.
+
+#### 💻 Frontend (JavaScript + Tailwind CSS)
+- Core functionality for user interactions and dynamic content.
+- Responsive and visually appealing UI design.
+
+#### 🔧 Backend (Spring Boot - Java)
+- Manages secure communication with external APIs.
+
+#### 🌐 APIs & Integrations
+  - 🔍 Google Safe Browsing API – Ensures security by detecting unsafe URLs.
+  - 🤖 OpenAI API – Enhances functionality with AI-powered features.
+  - 🧩 Chrome Extensions API - Seamlessly integrates with the browser to handle user interactions and permissions.
 
 
 ---
