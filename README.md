@@ -50,8 +50,9 @@ This project is part of our **thesis** on improving online security by integrati
 ### 🛠 Technologies Used
 
 #### 💻 Frontend (JavaScript + Tailwind CSS)
-  - Core functionality for user interactions and dynamic content.
-  - Responsive and visually appealing UI design.
+  - Connects to the backend using Fetch API.
+  - Uses Vanilla CSS for popups and Tailwind CSS for the browser extension UI.
+  - JavaScript handles core functionalities and interactions.
 
 #### 🔧 Backend (Spring Boot - Java)
   - Manages secure communication with external APIs.
