@@ -55,7 +55,8 @@ This project is part of our **thesis** on improving online security by integrati
   - JavaScript handles core functionalities and interactions.
 
 #### 🔧 Backend (Spring Boot - Java)
-  - Manages secure communication with external APIs.
+  - Handles API requests and processes responses.
+  - Communicates with external services and forwards data to the frontend and Arduino.
 
 #### ⚡ Caching (Caffeine Cache)
   - Enhances performance by storing frequently accessed data in memory.
