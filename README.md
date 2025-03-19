@@ -57,16 +57,10 @@ This project is part of our **thesis** on improving online security by integrati
   - Manages secure communication with external APIs.
 
 #### 🌐 APIs & Integrations
-  - 🔍 Google Safe Browsing API – Ensures security by detecting unsafe URLs.
-  - 🤖 OpenAI API – Enhances functionality with AI-powered features.
+  - 🛡 Google Safe Browsing API – Detects unsafe links to protect users from phishing and malware threats.
+  - 🤖 OpenAI API – Performs secondary verification by analyzing the URL when Google Safe Browsing does not flag it as unsafe. It evaluates various risk factors such as domain structure, URL patterns, content indicators, and potential phishing characteristics to enhance safety validation.
   - 🧩 Chrome Extensions API - Seamlessly integrates with the browser to handle user interactions and permissions.
 
-
----
-
-### 🔗 APIs
-- 🛡 **Google Safe Browsing API**: Detects unsafe links to protect users from phishing and malware threats.
-- 🤖 **OpenAI API**: Performs secondary verification by analyzing the URL when Google Safe Browsing does not flag it as unsafe. It evaluates various risk factors such as domain structure, URL patterns, content indicators, and potential phishing characteristics to enhance safety validation.
 
 ---
 
