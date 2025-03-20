@@ -16,10 +16,10 @@ This project is part of our **thesis** on improving online security by integrati
 - ✅ Color-coded alerts for better visibility:
   - 🟥 Suspicious Link
   - 🟩 Safe Link
-  - ✅ Secondary verification using OpenAI API for deep link analysis.
-  - ✅ Error handling with specific messages for different scenarios.
-  - ✅ Lightweight & efficient, ensuring minimal performance impact.
-  - ✅ Tailwind CSS for a sleek and modern design.
+- ✅ Secondary verification using OpenAI API for deep link analysis.
+- ✅ Error handling with specific messages for different scenarios.
+- ✅ Lightweight & efficient, ensuring minimal performance impact.
+- ✅ Tailwind CSS for a sleek and modern design.
 
 ---
 
